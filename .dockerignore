@@ -1,0 +1,8 @@
+__pycache__/
+data/
+.ipynb_checkpoints/
+.idea/
+*.pyc
+*.pkk
+*.zip
+
