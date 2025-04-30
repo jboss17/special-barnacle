@@ -3,7 +3,7 @@ This project is a facial recognition matcher. It takes an input image, compares 
 
 The application is fully **Dockerized** and published on Docker Hub for easy use.
 
-The application can be demoed using the images in `demo_faces`. It is recommended to add multiple images to help the `FaceMatcher` build a diverse portfolio.
+The application can be demoed using the images in `demo_faces`. It is recommended to add **all** of the images to help the `FaceMatcher` build a diverse portfolio.
 
 ## 🚀 Quick Start
 
