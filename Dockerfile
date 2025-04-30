@@ -1,8 +1,5 @@
 FROM python:3.10-slim
 
-# For CPU version
-#FROM python:3.10-slim
-
 # Set working directory
 WORKDIR /app
 

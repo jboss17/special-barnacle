@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
-from recognize_faces import GoogLeNetEmbedder
+from scripts.recognize_faces import GoogLeNetEmbedder
 from torchvision import transforms
 
 # Image Preprocessing

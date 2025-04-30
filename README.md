@@ -1,7 +1,9 @@
-# Machine Learning Project: Face Matcher
+# CSC 4311: Face Matcher
 This project is a facial recognition matcher. It takes an input image, compares it against known identities, and either matches or stores a new identity based on cosine similarity of facial embeddings.
 
 The application is fully **Dockerized** and published on Docker Hub for easy use.
+
+The application can be demoed using the images in `demo_faces`. It is recommended to add multiple images to help the `FaceMatcher` build a diverse portfolio.
 
 ## 🚀 Quick Start
 
@@ -36,13 +38,13 @@ Optional arguments:
 Match identity: 
 
 ```bash
-    python scripts/app.py --image /path/to/image/john.jpg
+    python scripts/app.py --image demo_faces/match.jpg
 ```
 
 Add new identity: 
 
 ```bash
-    python scripts/app.py --image /path/to/image/jane.jpg --add_name "Jane Doe"
+    python scripts/app.py --image demo_faces/addID_001.jpg --add_name "Dwight Schrute"
 ```
 
 Adjust similarity threshold: 

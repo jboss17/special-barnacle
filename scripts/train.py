@@ -19,6 +19,7 @@ batch_size = 64
 epochs = 30
 learning_rate = 1e-3
 
+
 # --- Load Dataset ---
 dataset = FDDBFaceDataset(csv_file=csv_path, img_dir=image_dir)
 num_classes = len(set(dataset.annotations['label']))  # dynamically count classes
